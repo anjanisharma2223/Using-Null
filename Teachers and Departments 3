@@ -1,0 +1,4 @@
+Use a different JOIN so that all teachers are listed.
+
+select teacher.name, dept.name 
+from teacher left join dept on(teacher.dept=dept.id)
