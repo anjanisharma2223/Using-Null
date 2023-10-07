@@ -1,0 +1,4 @@
+Note the INNER JOIN misses the teachers with no department and the departments with no teacher.
+
+select teacher.name, dept.name
+from teacher inner join dept on(teacher.dept=dept.id)
