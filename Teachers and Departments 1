@@ -1,0 +1,3 @@
+List the teachers who have NULL for their department.
+
+select name from teacher where dept is NULL
